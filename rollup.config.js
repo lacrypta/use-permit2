@@ -29,6 +29,6 @@ export default {
     resolve(),
     typescript(),
     commonjs({ extensions: [".js", ".ts"] }),
-    serve("dist"),
+    process.env.ROLLUP_WATCH && serve("dist"),
   ],
 };
