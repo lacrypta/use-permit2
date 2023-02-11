@@ -1,30 +1,45 @@
-# usepermit2
+# use-permit2 Not ready!
 
-> Use Permit2 hook for wagmi
+> Currently under development! Please, do not use it
 
-[![NPM](https://img.shields.io/npm/v/usepermit2.svg)](https://www.npmjs.com/package/usepermit2) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Use Permit2 hook for wagmi
+
+[![NPM](https://img.shields.io/npm/v/use-permit2.svg)](https://www.npmjs.com/package/use-permit2) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save usepermit2
+yarn add use-permit2
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import { useMyHook } from 'usepermit2'
+import usePermit2 from "use-permit2";
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
+  const example = usePermit2();
+  return <div>{JSON.stringify(example)}</div>;
+};
+```
+
+## Local Development
+
+Install main packages and run development server
+
+```bash
+yarn
+yarn start
+```
+
+Install example packages and run example page
+
+```bash
+cd example
+yarn
+yarn dev
 ```
 
 ## License
