@@ -1,6 +1,6 @@
 {
   "name": "use-permit2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Permit2 hook for wagmi",
   "author": "Agustin Kassis",
   "license": "MIT",
@@ -23,8 +23,7 @@
     "build": "rollup -c && tsc -d --emitDeclarationOnly --noEmit false --declarationDir dist",
     "start": "rollup -c -w",
     "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "predeploy": "cd example && yarn install && yarn run build"
   },
   "dependencies": {},
   "peerDependencies": {
