@@ -10,9 +10,9 @@ React [`Permit2`](https://docs.uniswap.org/contracts/permit2/overview) hook for 
 
 - [x] React Hook Boilerplate (Typescript)
 - [x] Example page (livereload)
-- [ ] Install [`Wagmi`](https://wagmi.sh/)
-- [ ] Setup Providers
-- [ ] Add Connect Button
+- [x] Install [`Wagmi`](https://wagmi.sh/)
+- [x] Setup Providers
+- [x] Add Connect Button
 - [ ] Setup [`Permit2 SDK`](https://www.npmjs.com/package/@uniswap/permit2-sdk)
 - [ ] Create hook mock
 - [ ] Generate transfer Flow
