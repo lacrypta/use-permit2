@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "connectkit": "^1.1.3",
+    "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "usepermit2": "link:.."
+    "usepermit2": "link:..",
+    "wagmi": "^0.11.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
